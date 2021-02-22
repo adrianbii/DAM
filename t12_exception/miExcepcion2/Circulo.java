@@ -1,4 +1,4 @@
-package miException2;
+package t12_exception.miExcepcion2;
 
 public class Circulo {
 

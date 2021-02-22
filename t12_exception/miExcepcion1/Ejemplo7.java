@@ -1,4 +1,4 @@
-package miExcepcion1;
+package t12_exception.miExcepcion1;
 
 public class Ejemplo7 {
     public static void main(String[] args) {
