@@ -1,9 +1,24 @@
+package JuegoFrases.models;
+
 public class Frase {
 
     private int id;
     private String frase;
     private String firma;
     private int nlikes=0;
+
+    public Frase (){
+        id+=0;
+        frase=" Holaaa, ¿Cómo te llamas?";
+        firma="By: Adrián";
+    }
+
+    public Frase(String frase, String firma){
+        
+        this.frase=frase;
+        this.firma=firma;
+    }
+
     public int getId() {
         return id;
     }
@@ -29,16 +44,6 @@ public class Frase {
         this.id = id;
     }
 
-    public Frase (){
-        id+=0;
-        frase=" Holaaa, ¿Cómo te llamas?";
-        firma="By: Adrián";
-    }
-
-    public Frase(String frase, String firma){
-        
-        this.frase=frase;
-        this.firma=firma;
-    }
+    
     
 }

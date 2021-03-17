@@ -8,7 +8,12 @@ public class Usuario {
     private int age;
 
 public Usuario (){
-    logger.log("Nuevo usuario");
+    System.out.println("Nuevo Usuario");
+}
+
+public Usuario(String user, String pass){
+    this.setUsuario(user);
+    this.setPass(pass);
 }
 
 public int getAge() {
@@ -64,14 +69,16 @@ public void setUsuario(String usuario) {
     this.user = usuario;
 }
 
-public Usuario(String user, String pass){
-    this.setUsuario(user);
-    this.setPass(pass);
-}
+
 
 private boolean validar(String pass){
     if (pass.length()<8) return false;
     else  return true;
+}
+
+public static toString(){
+
+    
 }
 
 
