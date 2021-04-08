@@ -28,7 +28,7 @@ public class ControladorFecha {
 	public static void arrayFechas(Fecha[] fechas) throws ParseException {
 		Fecha fecha= new Fecha();
 		for (int i=0; i>fechas.length; i++) {
-			fecha.ArrayFechas[i]=;
+			//fecha.ArrayFechas[i]=;
 		}
 	}
 

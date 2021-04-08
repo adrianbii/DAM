@@ -1,3 +1,5 @@
+package JuegoFrases.models;
+
 public class Usuario {
     private int id;
     private String user;
@@ -76,10 +78,7 @@ private boolean validar(String pass){
     else  return true;
 }
 
-public static toString(){
-
-    
-}
+//crear to string
 
 
 }

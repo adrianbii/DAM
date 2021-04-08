@@ -1,3 +1,5 @@
+package t6;
+
 import java.util.Scanner;
 
 public class Getnumber {

@@ -1,3 +1,5 @@
+package Bank;
+
 
 public class Bankonline {
 	private String dni;
